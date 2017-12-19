@@ -1,0 +1,85 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	cursor: default;
+	font-family: verdana;
+}
+
+.nav{
+	background: #f4f6f9;
+	padding: 0px;
+	max-width: 400px;
+	float: left;
+	overflow: scroll;
+	max-height: 600px;
+	font-size:15px;
+}
+.attraction{
+	color: black;
+	float: right;
+	max-width: 950px;
+	min-width: 200px;
+	font-size: 15px;
+}
+.attraction-image{
+	max-width: 500px;
+	min-width: 100px;
+	float: left;
+	padding: 20px;
+}
+.attraction-info{
+	padding: 15px;
+}
+.navigation{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#lead{
+	background: #1583a8;
+	color: #fff;
+	padding: 20px 45px;
+}
+.navigation-content{	
+	padding: 5%;
+	border-bottom: solid 1px #dcdee2;
+	color: black;
+}
+.navigation-content:hover{
+	background: #eaecef;
+}
+.slider-wrapper {
+  max-width: 920px;
+  float: right;
+  margin: 0 25px;
+  max-height: 500px;
+  padding-top: 20px;
+}
+
+.slider-image {
+  max-height: 500px;
+  max-width: 900px;
+  min-width: 200px;
+  margin: auto;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: #000;
+}
+.slider-button{
+	border: 3px solid #1583a8;
+	border-radius: 100%;
+	background: #fff;
+	position: relative;
+	text-align: center;
+	margin-top: 3%;
+	margin-left: 35%;
+	height: 50px;
+	width: 50px;
+}
+.slider-icon{
+	font-size: 20px;
+	color: #1583a8;
+	font-weight: bold;
+}
